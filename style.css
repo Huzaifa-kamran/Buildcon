@@ -1,0 +1,33 @@
+body{
+    background-color: #f1fbff ;
+}
+.about-img{
+    width: 90%;
+  
+}
+.services{
+    margin-top: 15%;
+    width: 100%;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    z-index: 2;
+   
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.carousel-inner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.7);
+	z-index: 1;
+}
